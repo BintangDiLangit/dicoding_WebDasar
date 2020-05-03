@@ -3,7 +3,7 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 main{
-    background: url(img/bg.jpg);
+    background: grey;
     background-position: 200px 0px;
 }
 
@@ -11,13 +11,14 @@ main{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    width: 30%;
-    float: right;
+    width: 40%;
+    float: left;
     padding-left: 1em;
+    border: solid black 3px;
 }
 #header ul li {
     display:block;
-    background-color: black;
+    background-color: darkgrey;
     background-size: 50px 50px;
     
 }
@@ -34,6 +35,7 @@ article{
     padding-left: 5px;
     border-right: solid black 3px;
     border-bottom: solid darkgreen 3px;
+    background-color: rgba(255, 255, 255, 0.788);
 }
 article p a{
     text-decoration: none;
@@ -55,7 +57,6 @@ article:hover{
       border: 10px;
       background-size: 100% ;
       padding: 20px;
-      border-top: solid red 3px;
       border-bottom: solid darkgreen 3px;
 }
 
@@ -70,7 +71,6 @@ article:hover{
   padding: 14px 16px;
   font-size: 15px;
   width: 33.33%;
-  border-bottom: blue;
 }
 
 .tabl:hover {
@@ -94,9 +94,10 @@ article:hover{
 }
 
 #main-footer{
+    color: white;
     text-align: center;
     padding: 1rem;
-    background: rgb(50, 1, 65);
+    background: rgb(39, 38, 39);
     height: 20px;
 }
 .clear{
@@ -128,23 +129,22 @@ span{
     color: darkblue;
 }
 .boxes div:hover span{
-    color: red;
-    
-    
+    color: red;   
 }
 #foto{
     border-radius: 50%;
     height: 20px;
 }
 main #sidebar{
-    margin-top: 1rem;
-    color: blanchedalmond;
+    margin-top: 30px;
+    color: black;
+    background-color:  rgba(255, 255, 255, 0.507);
 
     
 }
 main #sidebar a{
     padding: 0.4rem;
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     margin: 5px;
 
@@ -181,9 +181,13 @@ main #sidebar a:hover{
 } 
 #prof:hover{
     padding: 1rem 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     transition: all 0.5s ease-out;
 }
+
 h1:hover{
     color: darkgreen;
+}
+aside h1{
+    color: darkblue;
 }
